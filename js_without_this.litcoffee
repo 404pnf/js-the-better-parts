@@ -23,13 +23,9 @@ source: <http://radar.oreilly.com/2014/03/javascript-without-the-this.html>
 
 ### Use privileged function to access private var
 
-Direct reference is not going to work. E.g status = isOn
-
-Fail!
-
-Because closure will close over the _value_ of isOn on the creation
+Direct reference is not going to work. E.g status = isOn. Because closure will close over the _value_ of isOn on the creation
 of the returned object, therefore, there is no way to change the
-value of status
+value of status.
 
     makeLightBulb = ->
       isOn = true

@@ -7,7 +7,7 @@ Douglas Crockford: The Better Parts - JSConfUY 2014
 
 How to make it better:
 
-1. do not use this
-1. do not use __proto__
-1. do not use for
-1. do not use for in
+- do not use this
+- do not use __proto__
+- do not use for
+- do not use for in
